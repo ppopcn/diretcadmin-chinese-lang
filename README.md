@@ -5,7 +5,7 @@
 原本仅提供给我们授权的客户内部使用的, 现在免费提供给公众客户使用
 
 ## 如果有需要购买DirectAdmin授权  
-## 请在我们的官方网站[成立于2007年的主机软件官方网站购买](http://www.hostsoft.cn)
+## 请在我们的官方网站[成立于2007年的主机软件官方网站购买](http://9181.taobao.com)
 
 
 ## 当前版本
@@ -42,7 +42,7 @@ perl -pi -e 's/language=en/language=cn/' /usr/local/directadmin/data/users/*/use
 ```
 
 
-## DiretcAdmin Chinese Language Pack by Hostsoft.cn
+## DiretcAdmin Chinese Language Pack
 
 Current began offering free, All are original translation by us  
 how to install?  
