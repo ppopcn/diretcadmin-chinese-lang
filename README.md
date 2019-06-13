@@ -12,8 +12,6 @@
 * DirectAdmin 最新软件 版本  ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `1.55`  系列
 * DirectAdmin 中文语言 版本  1.55 系列
 
-我们会一直与官方同步  
-最后更新 2019/01/15  
   
  ![](directadmin.png)
 
@@ -21,36 +19,11 @@
 ## 安装教程1 Git方式
 ```sh
 rm -rf /usr/local/directadmin/data/skins/enhanced/lang/cn
-cd /usr/local/directadmin/data/skins/enhanced/lang/
-git clone https://github.com/ninetian/diretcadmin-chinese-lang cn
-chown diradmin:diradmin -R cn
-perl -pi -e 's/language=en/language=cn/' /usr/local/directadmin/data/users/*/user.conf
-```
-
-## 安装教程2 zip方式
-   注意替换版本号
-```sh
-rm -rf /usr/local/directadmin/data/skins/enhanced/lang/cn
 cd /usr/local/directadmin/data/skins/enhanced/lang
-da_langver=1.55
-wget --no-check-certificate  -c https://github.com/ninetian/diretcadmin-chinese-lang/archive/${da_langver}.zip
-unzip ${da_langver}.zip
-rm -rf ${da_langver}.zip
-mv diretcadmin-chinese-lang-${da_langver} cn
-chown diradmin:diradmin -R cn
-perl -pi -e 's/language=en/language=cn/' /usr/local/directadmin/data/users/*/user.conf
-```
-
-
-## DiretcAdmin Chinese Language Pack
-
-Current began offering free, All are original translation by us  
-how to install?  
-
-```sh
-rm -rf /usr/local/directadmin/data/skins/enhanced/lang/cn
-cd /usr/local/directadmin/data/skins/enhanced/lang/
-git clone https://github.com/ninetian/diretcadmin-chinese-lang cn
+wget --no-check-certificate  -c https://github.com/ninetian/diretcadmin-chinese-lang/archive/1.501.zip
+unzip 1.501.zip
+rm -rf 1.501.zip
+mv diretcadmin-chinese-lang-1.501 cn
 chown diradmin:diradmin -R cn
 perl -pi -e 's/language=en/language=cn/' /usr/local/directadmin/data/users/*/user.conf
 ```
