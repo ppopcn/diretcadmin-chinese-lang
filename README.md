@@ -16,7 +16,7 @@
  ![](directadmin.png)
 
   
-## 安装教程1 Git方式
+## 安装教程
 ```sh
 rm -rf /usr/local/directadmin/data/skins/enhanced/lang/cn
 cd /usr/local/directadmin/data/skins/enhanced/lang
